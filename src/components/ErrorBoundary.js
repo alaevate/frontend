@@ -19,9 +19,12 @@ export default class ErrorBoundary extends React.Component {
       return (
         <div className="flex items-center justify-center min-h-screen bg-gray-100">
           <div className="bg-white p-8 rounded-lg shadow-lg text-center max-w-md">
-            <h1 className="text-3xl font-bold text-red-600 mb-4">⚠️ Something went wrong</h1>
+            <h1 className="text-3xl font-bold text-red-600 mb-4">
+              ⚠️ Something went wrong
+            </h1>
             <p className="text-gray-700 mb-4">
-              The application encountered an error. Please refresh the page to try again.
+              The application encountered an error. Please refresh the page to
+              try again.
             </p>
             <details className="text-left mb-6 p-4 bg-red-50 rounded">
               <summary className="cursor-pointer font-semibold text-red-700">
